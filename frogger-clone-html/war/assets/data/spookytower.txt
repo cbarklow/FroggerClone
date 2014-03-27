@@ -1,0 +1,536 @@
+spookytower.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+control
+  rotate: false
+  xy: 2, 2
+  size: 90, 90
+  orig: 96, 96
+  offset: 2, 4
+  index: -1
+dead_kid
+  rotate: false
+  xy: 94, 2
+  size: 22, 24
+  orig: 32, 32
+  offset: 5, 4
+  index: -1
+death_
+  rotate: false
+  xy: 118, 2
+  size: 28, 32
+  orig: 32, 32
+  offset: 2, 0
+  index: 2
+death_
+  rotate: false
+  xy: 148, 2
+  size: 28, 32
+  orig: 32, 32
+  offset: 2, 0
+  index: 3
+death_
+  rotate: false
+  xy: 178, 2
+  size: 18, 22
+  orig: 32, 32
+  offset: 6, 6
+  index: 4
+dragon
+  rotate: false
+  xy: 198, 2
+  size: 84, 28
+  orig: 96, 32
+  offset: 0, 2
+  index: 1
+dragon
+  rotate: false
+  xy: 284, 2
+  size: 84, 28
+  orig: 96, 32
+  offset: 1, 2
+  index: 2
+finaltier
+  rotate: false
+  xy: 2, 94
+  size: 320, 26
+  orig: 400, 50
+  offset: 39, 12
+  index: -1
+floor1
+  rotate: false
+  xy: 324, 94
+  size: 60, 18
+  orig: 96, 32
+  offset: 18, 7
+  index: -1
+floor2
+  rotate: false
+  xy: 386, 94
+  size: 84, 18
+  orig: 96, 32
+  offset: 6, 7
+  index: -1
+floor3
+  rotate: false
+  xy: 2, 122
+  size: 130, 18
+  orig: 150, 32
+  offset: 10, 7
+  index: -1
+gameover
+  rotate: false
+  xy: 134, 122
+  size: 86, 16
+  orig: 96, 32
+  offset: 5, 8
+  index: -1
+ghost
+  rotate: false
+  xy: 222, 122
+  size: 28, 28
+  orig: 32, 32
+  offset: 3, 2
+  index: -1
+goal
+  rotate: false
+  xy: 252, 122
+  size: 28, 22
+  orig: 32, 32
+  offset: 2, 4
+  index: -1
+hero_down
+  rotate: false
+  xy: 282, 122
+  size: 22, 24
+  orig: 32, 32
+  offset: 1, 8
+  index: -1
+hero_down_jump
+  rotate: false
+  xy: 306, 122
+  size: 22, 24
+  orig: 32, 32
+  offset: 1, 8
+  index: -1
+hero_front
+  rotate: false
+  xy: 330, 122
+  size: 24, 24
+  orig: 32, 32
+  offset: 2, 5
+  index: -1
+hero_front_jump
+  rotate: false
+  xy: 356, 122
+  size: 22, 24
+  orig: 32, 32
+  offset: 1, 8
+  index: -1
+hero_side
+  rotate: false
+  xy: 380, 122
+  size: 22, 24
+  orig: 32, 32
+  offset: 0, 8
+  index: -1
+hero_side_jump
+  rotate: false
+  xy: 404, 122
+  size: 22, 24
+  orig: 32, 32
+  offset: 0, 8
+  index: -1
+howtoplay
+  rotate: false
+  xy: 2, 152
+  size: 100, 18
+  orig: 128, 64
+  offset: 14, 34
+  index: -1
+label_
+  rotate: false
+  xy: 104, 152
+  size: 20, 10
+  orig: 32, 32
+  offset: 6, 12
+  index: 200
+label_
+  rotate: false
+  xy: 126, 152
+  size: 20, 10
+  orig: 32, 32
+  offset: 6, 11
+  index: 400
+label_instructions
+  rotate: false
+  xy: 148, 152
+  size: 104, 32
+  orig: 128, 64
+  offset: 12, 19
+  index: -1
+logo
+  rotate: false
+  xy: 254, 152
+  size: 154, 81
+  orig: 154, 81
+  offset: 0, 0
+  index: -1
+monster
+  rotate: false
+  xy: 410, 152
+  size: 56, 32
+  orig: 64, 32
+  offset: 3, 0
+  index: 1
+mummy_
+  rotate: false
+  xy: 468, 152
+  size: 18, 24
+  orig: 32, 32
+  offset: 3, 8
+  index: 1
+mummy_
+  rotate: false
+  xy: 488, 152
+  size: 20, 24
+  orig: 32, 32
+  offset: 3, 8
+  index: 2
+mysterytile
+  rotate: false
+  xy: 2, 235
+  size: 22, 22
+  orig: 32, 32
+  offset: 4, 6
+  index: 1
+mysterytile
+  rotate: false
+  xy: 26, 235
+  size: 22, 22
+  orig: 32, 32
+  offset: 4, 6
+  index: 2
+mysterytile
+  rotate: false
+  xy: 50, 235
+  size: 22, 22
+  orig: 32, 32
+  offset: 4, 6
+  index: 3
+newlevel
+  rotate: false
+  xy: 74, 235
+  size: 86, 16
+  orig: 96, 32
+  offset: 5, 9
+  index: -1
+red
+  rotate: false
+  xy: 162, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 0
+red
+  rotate: false
+  xy: 174, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 1
+red
+  rotate: false
+  xy: 186, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 2
+red
+  rotate: false
+  xy: 198, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 3
+red
+  rotate: false
+  xy: 210, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 4
+red
+  rotate: false
+  xy: 222, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 5
+red
+  rotate: false
+  xy: 234, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 6
+red
+  rotate: false
+  xy: 246, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 7
+red
+  rotate: false
+  xy: 258, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 8
+red
+  rotate: false
+  xy: 270, 235
+  size: 10, 16
+  orig: 16, 16
+  offset: 2, 0
+  index: 9
+redskull_
+  rotate: false
+  xy: 282, 235
+  size: 18, 24
+  orig: 32, 32
+  offset: 3, 8
+  index: 1
+redskull_
+  rotate: false
+  xy: 302, 235
+  size: 20, 24
+  orig: 32, 32
+  offset: 1, 8
+  index: 2
+redsmall
+  rotate: false
+  xy: 324, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 0
+redsmall
+  rotate: false
+  xy: 332, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 1
+redsmall
+  rotate: false
+  xy: 340, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 2
+redsmall
+  rotate: false
+  xy: 348, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 3
+redsmall
+  rotate: false
+  xy: 356, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 4
+redsmall
+  rotate: false
+  xy: 364, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 5
+redsmall
+  rotate: false
+  xy: 372, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 6
+redsmall
+  rotate: false
+  xy: 380, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 7
+redsmall
+  rotate: false
+  xy: 388, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 8
+redsmall
+  rotate: false
+  xy: 396, 235
+  size: 6, 10
+  orig: 16, 16
+  offset: 5, 3
+  index: 9
+skeleton_
+  rotate: false
+  xy: 404, 235
+  size: 18, 24
+  orig: 32, 32
+  offset: 3, 8
+  index: 1
+skeleton_
+  rotate: false
+  xy: 424, 235
+  size: 20, 24
+  orig: 32, 32
+  offset: 1, 8
+  index: 2
+taptobegin
+  rotate: false
+  xy: 2, 261
+  size: 86, 14
+  orig: 96, 32
+  offset: 4, 9
+  index: -1
+timebar
+  rotate: false
+  xy: 90, 261
+  size: 166, 10
+  orig: 200, 32
+  offset: 17, 12
+  index: -1
+timelabel1
+  rotate: false
+  xy: 258, 261
+  size: 86, 16
+  orig: 96, 32
+  offset: 5, 8
+  index: -1
+timelabel2
+  rotate: false
+  xy: 346, 261
+  size: 38, 14
+  orig: 64, 32
+  offset: 12, 10
+  index: -1
+tome
+  rotate: false
+  xy: 386, 261
+  size: 16, 16
+  orig: 32, 32
+  offset: 8, 11
+  index: -1
+vampire_
+  rotate: false
+  xy: 404, 261
+  size: 18, 24
+  orig: 32, 32
+  offset: 3, 8
+  index: 1
+vampire_
+  rotate: false
+  xy: 424, 261
+  size: 20, 24
+  orig: 32, 32
+  offset: 3, 8
+  index: 2
+white
+  rotate: false
+  xy: 446, 261
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 0
+white
+  rotate: false
+  xy: 458, 261
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 1
+white
+  rotate: false
+  xy: 470, 261
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 2
+white
+  rotate: false
+  xy: 482, 261
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 3
+white
+  rotate: false
+  xy: 494, 261
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 4
+white
+  rotate: false
+  xy: 2, 287
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 5
+white
+  rotate: false
+  xy: 14, 287
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 6
+white
+  rotate: false
+  xy: 26, 287
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 7
+white
+  rotate: false
+  xy: 38, 287
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 8
+white
+  rotate: false
+  xy: 50, 287
+  size: 10, 16
+  orig: 16, 16
+  offset: 3, 0
+  index: 9
+world
+  rotate: false
+  xy: 62, 287
+  size: 320, 480
+  orig: 512, 512
+  offset: 96, 16
+  index: -1
+zombie_
+  rotate: false
+  xy: 384, 287
+  size: 18, 24
+  orig: 32, 32
+  offset: 3, 8
+  index: 1
+zombie_
+  rotate: false
+  xy: 404, 287
+  size: 20, 24
+  orig: 32, 32
+  offset: 1, 8
+  index: 2
