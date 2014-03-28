@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=frogger-clone/src&lt;com.cbarklow.froggerclone.elements{FinalTier.java[FinalTier" modifiers="1" timestamp="1396022811000"/>
+<typeInfo handle="=frogger-clone/src&lt;com.cbarklow.froggerclone.elements{Tier.java[Tier" modifiers="1" timestamp="1395933110000"/>
+<typeInfo handle="=frogger-clone/src&lt;com.cbarklow.froggerclone.elements{TimeBar.java[TimeBar" modifiers="1" timestamp="1396017052000"/>
+<typeInfo handle="=frogger-clone/src&lt;com.cbarklow.froggerclone.elements{TimeMsg.java[TimeMsg" modifiers="1" timestamp="1395783698000"/>
+<typeInfo handle="=frogger-clone/src&lt;com.cbarklow.froggerclone.screens{GameScreen.java[GameScreen" modifiers="1" timestamp="1396022905000"/>
+</typeInfoHistroy>

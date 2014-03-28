@@ -2,14 +2,16 @@ package com.cbarklow.froggerclone.screens;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
+//import java.util.Timer;
+//import java.util.TimerTask;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector3;
+import com.badlogic.gdx.utils.Timer;
+import com.badlogic.gdx.utils.Timer.Task;
 import com.cbarklow.froggerclone.Game;
 import com.cbarklow.froggerclone.data.Sounds;
 import com.cbarklow.froggerclone.elements.BonusCharacter;
@@ -233,20 +235,20 @@ public class GameScreen extends Screen {
 	public void targetReached(){
 		//show the time needed to reach this target
 		
-		_levelTimeMsg.timeLabel.value = _timeBar.seconds;
+		_levelTimeMsg.timeLabel.setValue(_timeBar.seconds);
 		_levelTimeMsg.show();		
 		
 		final Timer timer = new Timer();
-		timer.schedule(new TimerTask(){
+		timer.scheduleTask(new Task(){
 			@Override
 			public void run(){
 				_levelTimeMsg.hide();
 				if(_game.gameData.targetsReached == 5){
 					newLevel();
 				}
-				timer.cancel();
+				timer.clear();
 			}
-		}, 3000, 1000);
+		}, 3.0f);
 		
 		_player.reset();
 		_timeBar.seconds = 0;
@@ -263,13 +265,13 @@ public class GameScreen extends Screen {
 		_newLevelMsg.show();
 		
 		final Timer timer = new Timer();
-		timer.schedule(new TimerTask(){
+		timer.scheduleTask(new Task(){
 			@Override
 			public void run(){
 				_newLevelMsg.hide();
-				timer.cancel();
+				timer.clear();
 			}
-		}, 3000, 1000);
+		}, 3.0f, 1.0f);
 		
 		//reset the targets reached
 		_game.gameData.targetsReached = 0;

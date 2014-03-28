@@ -11,7 +11,7 @@ public class Score extends NumberSprite {
 	
 	@Override
 	public void draw(){
-		value = _game.gameData.score;
+		setValue(_game.gameData.score);
 		super.draw();
 	}
 

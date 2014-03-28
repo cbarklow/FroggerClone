@@ -1,4 +1,4 @@
-d::0:application/unknown
+d:war/:0:application/unknown
 d:data:0:application/unknown
 i:data/frogger.png:64953:image/png
 t:data/frogger.txt:7185:text/plain

@@ -11,7 +11,7 @@ public class Level extends NumberSprite {
 	
 	@Override
 	public void draw(){
-		value = _game.gameData.level;
+		setValue(_game.gameData.level);
 		super.draw();
 	}
 

@@ -10,7 +10,7 @@ import com.cbarklow.froggerclone.data.ImageCache;
 
 public class NumberSprite extends GameSprite {
 	
-	public int value;
+	private int value;
 	private List<TextureRegion> _textures;
 	private List<Sprite> _numbers;
 	
@@ -35,6 +35,10 @@ public class NumberSprite extends GameSprite {
 		_game.screen.elements.add(this);
 	}
 	
+	public void setValue(int newValue){
+		value = newValue;
+	}
+	
 	@Override
 	public void draw(){
 		String string = value + "";
@@ -43,7 +47,9 @@ public class NumberSprite extends GameSprite {
 		Sprite sprite;
 		for(int i = 0; i < len; i++){
 			sprite = _numbers.get(i);
-			sprite.setRegion(_textures.get(Character.getNumericValue(string.charAt(i))));
+			//this is funky so that it works on html5
+			int index = (int)string.charAt(i) - 48;
+			sprite.setRegion(_textures.get(index));
 			sprite.draw(_game.spriteBatch);
 		}
 	}

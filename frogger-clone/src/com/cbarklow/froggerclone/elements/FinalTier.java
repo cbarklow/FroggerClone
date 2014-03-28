@@ -3,10 +3,12 @@ package com.cbarklow.froggerclone.elements;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.Timer;
-import java.util.TimerTask;
+//import java.util.Timer;
+//import java.util.TimerTask;
 
 import com.badlogic.gdx.math.Rectangle;
+import com.badlogic.gdx.utils.Timer;
+import com.badlogic.gdx.utils.Timer.Task;
 import com.cbarklow.froggerclone.Game;
 import com.cbarklow.froggerclone.data.GameData;
 import com.cbarklow.froggerclone.data.Sounds;
@@ -98,15 +100,15 @@ public class FinalTier extends Tier {
 						_game.gameData.score += bonus;
 						//show target reached icon after displaying bonus for some time
 						final Timer timer = new Timer();
-						timer.schedule(new TimerTask() {
+						timer.scheduleTask(new Task() {
 				        	@Override
 				        	public void run() {
 				            	_bonus400.get(selIndex).visible = false;
 				            	_bonus200.get(selIndex).visible = false;
 				            	_targets.get(selIndex).visible = true;
-				            	timer.cancel();
+				            	timer.clear();
 				        	}
-				    	}, 300, 1);
+				    	}, 0.3f, .001f);
 						
 					} else {
 						target.visible = true;
@@ -116,7 +118,7 @@ public class FinalTier extends Tier {
 					Sounds.play(Sounds.pickup);
 					
 					final Timer timer2 = new Timer();
-					timer2.schedule(new TimerTask() {
+					timer2.scheduleTask(new Task() {
 			        	@Override
 			        	public void run() {
 			        		_screen.targetReached();
@@ -124,9 +126,9 @@ public class FinalTier extends Tier {
 								Sounds.play(Sounds.target);
 								hide();
 							}
-			            	timer2.cancel();
+			            	timer2.clear();
 			        	}
-			    	}, 1000, 1);
+			    	}, 1.0f);
 					
 					
 					//add points for reaching a target
@@ -176,14 +178,14 @@ public class FinalTier extends Tier {
 						_tomes.get(index).visible = true;
 					}
 					final Timer timer = new Timer();
-					timer.schedule(new TimerTask() {
+					timer.scheduleTask(new Task() {
 			        	@Override
 			        	public void run() {
 			        		_ghosts.get(index).visible = false;
 							_tomes.get(index).visible = false;
-			            	timer.cancel();
+			            	timer.clear();
 			        	}
-			    	}, 4000, 1);
+			    	}, 4.0f, .001f);
 				}
 			}
 			
